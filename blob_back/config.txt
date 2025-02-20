@@ -1,0 +1,4 @@
+gtfs=C:/Users/calar/Downloads/IDFM-gtfs-jo/gtfs.db
+lat=48.8610
+lon=2.3439
+r=5.63

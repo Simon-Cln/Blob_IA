@@ -1,0 +1,69 @@
+{
+	"name": "blob_ia",
+	"version": "1.0.0",
+	"private": true,
+	"dependencies": {
+		"@arcgis/core": "^4.30.4",
+		"@emotion/react": "^11.11.4",
+		"@emotion/styled": "^11.11.5",
+		"@mui/lab": "^5.0.0-alpha.171",
+		"@mui/material": "^5.16.0",
+		"@types/d3-array": "^3.2.1",
+		"@types/d3-color": "^3.1.3",
+		"@types/d3-scale": "^4.0.8",
+		"axios": "^1.7.2",
+		"chroma-js": "^2.4.2",
+		"deck.gl": "^9.0.20",
+		"leaflet": "^1.9.4",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-icons": "^5.2.1",
+		"react-leaflet": "^3.2.5",
+		"react-map-gl": "^7.1.7",
+		"react-router-dom": "^6.24.0",
+		"react-scripts": "4.0.3",
+		"react-simple-maps": "^2.0.0",
+		"react-timeline-semantic-ui": "^1.0.13",
+		"react-toastify": "^8.0.0",
+		"react-tooltip": "^4.2.21",
+		"styled-components": "^5.3.0",
+		"tangram": "^0.21.1",
+		"three": "^0.166.1"
+	},
+	"scripts": {
+		"start": "set NODE_OPTIONS=--openssl-legacy-provider&& react-scripts start",
+		"build": "set NODE_OPTIONS=--openssl-legacy-provider&& react-scripts build",
+		"test": "set NODE_OPTIONS=--openssl-legacy-provider&& react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.24.7",
+		"@babel/plugin-proposal-optional-chaining": "^7.13.8",
+		"@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+		"@babel/plugin-syntax-import-meta": "^7.10.4",
+		"@babel/preset-env": "^7.24.7",
+		"@babel/preset-react": "^7.13.10",
+		"babel-loader": "^9.1.3"
+	},
+	"babel": {
+		"presets": [
+			"@babel/preset-env",
+			"@babel/preset-react"
+		],
+		"plugins": [
+			"@babel/plugin-proposal-optional-chaining",
+			"@babel/plugin-syntax-import-meta"
+		]
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not op_mini all"
+	]
+}
