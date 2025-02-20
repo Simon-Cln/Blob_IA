@@ -1,3 +1,6 @@
+![Blob IA](blobia.gif)
+
+
 # Blob IA
 
 Dans le contexte des Jeux Olympiques de Paris, il y aura énormément de monde dans la capitale. L'objectif de ce projet est de déterminer les meilleurs trajets entre les différentes épreuves pour optimiser ses déplacements et éviter les embouteillages. 
